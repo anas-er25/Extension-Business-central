@@ -11,22 +11,6 @@
       <rd:DataSourceID>6cc75eae-e56b-4d0e-b4d5-774128b85eb9</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="No">
-          <DataField>No</DataField>
-        </Field>
-        <Field Name="ItemType">
-          <DataField>ItemType</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -35,15 +19,15 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>3.81667in</Width>
+                  <Width>2.69167in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>3.81667in</Width>
+                  <Width>2.69167in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>1.55in</Height>
+                  <Height>1.16667in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -122,7 +106,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>1.55in</Height>
+                  <Height>1.16667in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -216,9 +200,9 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
             <Top>0.61in</Top>
-            <Left>5.69333in</Left>
-            <Height>3.1in</Height>
-            <Width>7.63333in</Width>
+            <Left>0.89333in</Left>
+            <Height>2.33333in</Height>
+            <Width>5.38333in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -226,13 +210,13 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>5.06667in</Height>
+        <Height>12.86933cm</Height>
         <Style />
       </Body>
-      <Width>19.05in</Width>
+      <Width>19.21934cm</Width>
       <Page>
         <PageHeader>
-          <Height>2.25in</Height>
+          <Height>5.715cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -240,10 +224,10 @@
               <Source>Embedded</Source>
               <Value>logoANEF</Value>
               <Sizing>FitProportional</Sizing>
-              <Top>0.04333in</Top>
-              <Left>7.72667in</Left>
-              <Height>2.13722in</Height>
-              <Width>4.25in</Width>
+              <Top>0in</Top>
+              <Left>3.02667in</Left>
+              <Height>1.65389in</Height>
+              <Width>3.25in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -258,7 +242,7 @@
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>1in</Height>
+          <Height>2.54cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -284,8 +268,8 @@
               <rd:DefaultName>Textbox19</rd:DefaultName>
               <Top>0.14333in</Top>
               <Left>0.59333in</Left>
-              <Height>0.65in</Height>
-              <Width>3.96667in</Width>
+              <Height>0.35in</Height>
+              <Width>2.68333in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -316,10 +300,10 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox19</rd:DefaultName>
-              <Top>0.175in</Top>
-              <Left>14.325in</Left>
-              <Height>0.65in</Height>
-              <Width>3.96667in</Width>
+              <Top>0.14333in</Top>
+              <Left>5.14167in</Left>
+              <Height>0.35in</Height>
+              <Width>2.31667in</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
@@ -338,16 +322,13 @@
             </Border>
           </Style>
         </PageFooter>
+        <PageHeight>29.7cm</PageHeight>
+        <PageWidth>21cm</PageWidth>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
         <Style />
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParametersLayout>
-    <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
-    </GridLayoutDefinition>
-  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -516,6 +497,22 @@ EHJgypQp1YvIgoICsmbNmqYA0ABjLLuu60qSVLZ27dq9ixcvrhY2kyZNyjpw4EBjRVHceDx+OLWOmjzy
   </EmbeddedImages>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
-  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No">
+          <DataField>No</DataField>
+        </Field>
+        <Field Name="ItemType">
+          <DataField>ItemType</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
